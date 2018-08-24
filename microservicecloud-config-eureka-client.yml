@@ -3,7 +3,9 @@ spring:
     active: 
     - dev
     
+    
 ---
+
 server:
   port: 7001
  
@@ -12,7 +14,7 @@ spring:
   application:
     name: microservicecloud-config-eureka-client
  
- eureka:
+eureka:
   instance:
     hostname: eureka7001.com
   client:
@@ -31,7 +33,7 @@ spring:
   application:
     name: microservicecloud-config-eureka-client
     
- eureka:
+eureka:
   instance:
     hostname: eureka7001.com
   client:
